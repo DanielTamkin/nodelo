@@ -1,6 +1,6 @@
 # Nodelo ⚙
 
-A play on words from Nodelo's cousin, [Modelo]() by @tundradawn.
+A play on words from Nodelo's cousin, [Modelo](https://github.com/tundradawn/modelo) by @tundradawn.
 Intended as a general purpose low-level template to get ES6 running quick and easy.
 If you don't need all the bells and whistles, this template might be for you. 
 
@@ -9,14 +9,14 @@ If you don't need all the bells and whistles, this template might be for you.
 - Targets: `node: 'current'`.
 
 **Plugins:**
-- [@babel/plugin-transform-classes]()
+- [@babel/plugin-transform-classes](https://babeljs.io/docs/en/babel-plugin-transform-classes)
  - default: `loose:false`
-- [@babel/plugin-proposal-class-properties]()
+- [@babel/plugin-proposal-class-properties](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties)
  - _default_: `loose:false`
-- [@babel/plugin-transform-runtime]()
+- [@babel/plugin-transform-runtime](https://babeljs.io/docs/en/babel-plugin-transform-runtime)
  - _default_: `corejs: 3`, `regenerator: true`
 
-### Everything from [Modelo]():
+### Everything from [Modelo](https://github.com/tundradawn/modelo):
 
 ##### `.gitignore`
 - ignores node elements, common UNIX elements such as `.DS_Store` and more.
