@@ -1,9 +1,22 @@
-# Modelo 🧮🤖
+# Nodelo ⚙
 
-Spanish for Template, Modelo is a general purpose repo template for @tundradawn. I wanted to call it Nodelo, for node purposes... but if we need a template repo specfically for node i think we'll cross that road at that time.
-
+A play on words from Nodelo's cousin, [Modelo]() by @tundradawn.
+Intended as a general purpose low-level template to get ES6 running quick and easy.
+If you don't need all the bells and whistles, this template might be for you. 
 
 # Contents
+#### `babel.rc`
+- Targets: `node: 'current'`.
+
+**Plugins:**
+- [@babel/plugin-transform-classes]()
+ - default: `loose:false`
+- [@babel/plugin-proposal-class-properties]()
+ - _default_: `loose:false`
+- [@babel/plugin-transform-runtime]()
+ - _default_: `corejs: 3`, `regenerator: true`
+
+### Everything from [Modelo]():
 
 ##### `.gitignore`
 - ignores node elements, common UNIX elements such as `.DS_Store` and more.
